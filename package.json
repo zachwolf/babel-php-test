@@ -1,0 +1,27 @@
+{
+  "name": "babel-php-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel file.php -o file.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachwolf/babel-php-test.git"
+  },
+  "keywords": [],
+  "author": "Zach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachwolf/babel-php-test/issues"
+  },
+  "homepage": "https://github.com/zachwolf/babel-php-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0"
+  },
+  "dependencies": {
+    "babel-preset-php": "^2.0.0"
+  }
+}
