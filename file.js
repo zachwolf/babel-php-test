@@ -1,1 +1,13 @@
-echo("define('FOO', max(floatval($c), strlen(\"foo\")));\n$bar['x'][][$b] = json_encode(__FILE__);\nclass Foo extends Bar\\Baz {\n  var $z = \"hello\" . \"world\";\n  function __construct($some = array(7)) {\n    parent::__construct(func_get_args());\n    self::${$k} = \"{$this->z[10]}\";\n  }\n}\n");
+const FOO = Math.max(+c, "foo".length);
+bar.x.push({
+  [b]: JSON.stringify(__filename)
+});
+
+class Foo extends Bar.Baz {
+  constructor(some = [7]) {
+    super(arguments);
+    this.z = "hello" + "world";
+    Foo[k] = `${this.z[10]}`;
+  }
+
+};

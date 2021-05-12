@@ -1,3 +1,5 @@
+<?php
+
 define('FOO', max(floatval($c), strlen("foo")));
 $bar['x'][][$b] = json_encode(__FILE__);
 class Foo extends Bar\Baz {
